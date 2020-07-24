@@ -4,26 +4,31 @@
     min-height: 240px;
     line-height: 240px;
     border: 1px solid black;
+    background-color: green;
 }
 .contOne {
     min-height: 75px;
     border: 1px solid black;
     line-height: 75px;
+    background-color: red;
 }
 .contTwo {
     min-height: 150px;
     border: 1px solid black;
     line-height: 150px;
+    background-color:blue;
 }
 .contThree, .contFour {
     min-height: 125px;
     border: 1px solid black;
     line-height: 125px;
+    background-color: purple;
 }
 .contNine {
     min-height: 150px;
     border: 1px solid black;
     line-height: 150px;
+    background-color: royalblue;
 }
 /* Breakpoint */
 @media (min-width: 768px) {
