@@ -1,0 +1,64 @@
+.contFive, .contSix, .contSeven, .contEight {
+    width: 50%;
+    float: left;
+    min-height: 240px;
+    line-height: 240px;
+    border: 1px solid black;
+}
+.contOne {
+    min-height: 75px;
+    border: 1px solid black;
+    line-height: 75px;
+}
+.contTwo {
+    min-height: 150px;
+    border: 1px solid black;
+    line-height: 150px;
+}
+.contThree, .contFour {
+    min-height: 125px;
+    border: 1px solid black;
+    line-height: 125px;
+}
+.contNine {
+    min-height: 150px;
+    border: 1px solid black;
+    line-height: 150px;
+}
+/* Breakpoint */
+@media (min-width: 768px) {
+    main {
+        max-width: 960px;
+    }
+    .contOne {
+        min-height: 100px;
+        line-height: 100px;
+        }
+    .contTwo {
+        width: 20%;
+        min-height: 600px;
+        float: left;
+    }
+    .lowerRight {
+        width: 80%;
+        float: right;
+    }
+    .contThree {
+        width: 50%;
+        min-height: 200px;
+        float: left;   
+    }
+    .contFour {
+        width: 50%;
+        min-height: 200px;
+        float: right;
+    }
+    .contFive, .contSix, .contSeven, .contEight {
+        width: 25%;
+        min-height: 250px;
+        float: left;
+    }
+    .contNine {
+        min-height: 150px;
+    } 
+}
